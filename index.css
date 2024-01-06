@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+
+    padding: 8px 15em 0 12em;
+    ;
+    display: flex;
+    flex-direction: row;
+    height: 28px;
+    width: 100%;
+    justify-content: space-between;
+    gap: -10em;
+    background: #ddd9d3;
+
+
+}
+
+.nav #img_left {
+    display: flex;
+    flex-direction: row;
+    height: 2em;
+    /* width: 60%; */
+    gap: 10px;
+
+    justify-content: space-between;
+}
+
+.nav #img_left img {
+    height: 1em;
+}
+
+.nav #img_right img {
+    height: 1.2em;
+
+}
+
+.nav #img_left #wp_txt {
+    display: flex;
+    flex-direction: row;
+    height: 2em;
+
+    gap: 0.5em;
+    margin-right: -2em;
+}
+
+.nav #img_left #mail_txt {
+    display: flex;
+    flex-direction: row;
+    height: 2em;
+
+    gap: 0.5em;
+    margin-left: 2.5em;
+}
+
+.nav #img_right {
+    display: flex;
+    flex-direction: row;
+    height: 2em;
+    /* width: 50%; */
+    gap: 1em;
+
+}
+
+.pf {
+    height: 96px;
+    background: 001c38;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3em;
+    background-color: #001c38;
+}
+
+.pf #left img {
+    height: 3.5em;
+    margin-left: 12em;
+    margin-top: 1em;
+}
+
+.pf .right {
+    display: flex;
+    flex-direction: row;
+    margin-right: 12em;
+    gap: 1.5em;
+    color: #ffffff;
+    font-size: larger;
+    margin-top: 1.5em;
+    list-style-type: none;
+    font-family: Poppins, sans-serif;
+}
+
+.pf img {
+    height: 0.5em;
+    margin: 0 1em 0 0;
+}
