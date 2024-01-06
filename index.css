@@ -97,3 +97,52 @@
     height: 0.5em;
     margin: 0 1em 0 0;
 }
+  .body{
+    height: 40em;
+    width: 100%;
+    background-image: url("img/bg-no-bg-1.webp");
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+ .body #bg_img{
+    height: 100%;
+}
+.body h2{
+    margin-top:0em;
+    font-size: 65px;
+    font-family:
+    Poppins, sans-serif;
+  justify-content: center;
+  width: 15em;
+}
+.body h3{
+    font-family:
+    Poppins, sans-serif;
+    font-size: 36px;
+    color: #1a6c7a;
+    font-weight:100;
+   width: 22em;
+}
+
+
+.body #button{
+    height: 4em;
+width: fit-content;
+
+background-color: #001c38;
+border-radius: 0.5rem;
+}
+.body #button h3{
+    color: #ffffff;
+    margin: 0.5em ;
+    width: fit-content;
+    font-family: 
+Poppins, sans-serif;
+font-size: 
+20px;
+font-weight: 900;
+}
